@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>convert</title>
+</head>
+<body>
+</body>
+<script>
+  let meter=+prompt("điền vào meter")
+  let fit=+prompt("điền vào fit")
+  function handle1(meter){
+    let fit=meter*3.279
+    return fit
+  }
+  function handle2(fit){
+    let meter=fit*0.305
+    return meter
+  }
+  document.write(meter + " meter " + "=" + handle1(meter) + "fit")
+  document.write("<br>")
+  document.write(fit+"fit"+"="+handle2(fit)+"meter")
+</script>
+</html>
